@@ -3,11 +3,10 @@
     max-width: 1280px;
     min-width: 320px;
     height: 6875px;
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     padding: 28px 0 24px;
-
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     font-weight: 400;
@@ -17,7 +16,6 @@
     -moz-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
 }
 
 @media screen and (max-width: 1024px) {
