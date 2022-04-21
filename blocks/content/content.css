@@ -3,13 +3,13 @@
     grid-row-gap: 92px;
   }
   
-  @media screen and (max-width: 1024) and (min-width: 769px) {
+  @media screen and (max-width: 1280) and (min-width: 1025px) {
     .content {
       grid-row-gap: 88px;
     }
   }
   
-  @media screen and (max-width: 768px)  and (min-width: 321px) {
+  @media screen and (max-width: 1024px)  and (min-width: 769px) {
     .content {
       grid-row-gap: 64px;
     }
