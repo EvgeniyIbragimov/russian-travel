@@ -1,21 +1,15 @@
 .intro__container {
-    max-width: 690px;
-  }
+  max-width: 690px;
+}
   
-  @media screen and (max-width: 1024) and (min-width: 769px) {
-    .intro__container {
-      max-width: 690px;
-    }
+@media screen and (max-width: 768px) {
+  .intro__container {
+    max-width: 720px;
   }
-  
-  @media screen and (max-width: 768px)  and (min-width: 321px) {
-    .intro__container {
-      max-width: 720px;
-    }
-  }
+}
 
-  @media screen and (max-width: 320px) {
-    .intro__container {
-      max-width: 288px;
-    }
+@media screen and (max-width: 320px) {
+  .intro__container {
+    max-width: 288px;
   }
+}

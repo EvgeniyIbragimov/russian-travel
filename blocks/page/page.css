@@ -1,12 +1,12 @@
 .page {
+    display: flex;
+    flex-direction: column;
     background-color: #2A2C2F;
     max-width: 1280px;
     min-width: 320px;
     height: 6875px;
     margin: 0 auto;
     padding: 28px 0 24px;
-    display: flex;
-    flex-direction: column;
     font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     font-weight: 400;
@@ -25,7 +25,7 @@
     }
 }
       
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .page {
         padding: 16px 0 24px;
     }
