@@ -9,27 +9,25 @@
   padding-bottom: 0;
 }
   
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1140px) {
   .place {
     grid-template-columns: 440px 1fr;
-    left: 48px;
-    right: 536px;
+    gap: 48px 32px;
   }
 }
-  
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 984px) {
   .place {
-    padding-bottom: 73px;
     grid-template-columns: 340px 1fr;
-    left: 24px;
-    right: 404px;
+    gap: 48px 28px;
+    padding-bottom: 73px;
   }
 }
-  
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 568px) {
   .place {
-    padding-bottom: 50px;
     grid-template-columns: 100%;
     gap: 16px;
+    padding-bottom: 50px;
   }
 }
