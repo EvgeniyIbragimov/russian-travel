@@ -1,11 +1,11 @@
 .footer__container {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
   
-@media screen and (max-width: 320px) {
+  @media screen and (max-width: 568px) {
   .footer__container {
     flex-direction: column;
     align-items: flex-start;
