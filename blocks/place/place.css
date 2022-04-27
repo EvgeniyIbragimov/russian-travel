@@ -9,18 +9,18 @@
   padding-bottom: 0;
 }
   
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1280px) {
   .place {
     grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
 }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
   .place {
-    padding-bottom: 73px;
     grid-template-columns: 340px 1fr;
-    gap: 24px 28px;
+    gap: 48px 28px;
+    padding-bottom: 73px;
   }
 }
   
